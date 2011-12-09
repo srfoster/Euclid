@@ -5,12 +5,19 @@ The Euclid Project
 
 This project allows Unity3D to interact with the Eclipse IDE.
 
-Prerequisites:
+Why would this be useful?  I'm personally using this in the CodeSpells project (codespells.blogspot.com).  I also think it could be useful to anyone who wants to build a fully featured IDE inside of Unity.  Also, it would be useful in projects that involve visualizing code bases in 3D environments (Yes, these do exist: http://www.moosetechnology.org/tools/vw/codecity).
+
+
+***************
+Getting started
+***************
+
+You'll need to install: 
 
 1) Eclipse (http://www.eclipse.org/)
 2) Eclim (http://eclim.org/)
 
-You'll need to install both of these.  Then you'll need to edit the EclipseConfig file with the appropriate path to your eclipse installation.
+After installing these and downloading this Git project, you'll need to edit the EclipseConfig file with the path to your eclipse installation.
 
 You can look at the EuclidTest scene as an example of how to get started.
 
