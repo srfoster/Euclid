@@ -45,6 +45,8 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Standard Assets\Shell\Shell.js" />
+     <None Include="Assets\Dependencies\euclid_dependencies.txt" />
+     <None Include="Assets\Dependencies\yougitit_dependencies.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

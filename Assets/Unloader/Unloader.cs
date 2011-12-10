@@ -2,6 +2,10 @@ using UnityEngine;
 using System.Collections;
 
 public class Unloader : MonoBehaviour {
+	
+	public string text = "Loaded";
+	
+	
 	private Texture2D[] frames;
 	private Texture2D loaded_texture;
 	private bool loaded = false;
@@ -39,7 +43,7 @@ public class Unloader : MonoBehaviour {
 		
 		GUI.BeginGroup(new Rect(0,Screen.height - 80,260,80));
 		GUI.Box(new Rect(5,5,250,70),"");
-		GUI.Label(new Rect(15,30,170,20), "Eclipse Connection:", label_style);
+		GUI.Label(new Rect(15,30,170,20), text, label_style);
 		GUI.DrawTexture(new Rect(195,15,50,50),texture);
 		GUI.EndGroup();
 	}

@@ -48,7 +48,10 @@
      <Compile Include="Assets\Euclid\EuclidConfig.cs" />
      <Compile Include="Assets\Euclid\Examples\CSTest.cs" />
      <Compile Include="Assets\Euclid\StartEclim.cs" />
+     <Compile Include="Assets\Unloader\Example.cs" />
      <Compile Include="Assets\Unloader\Unloader.cs" />
+     <None Include="Assets\Dependencies\euclid_dependencies.txt" />
+     <None Include="Assets\Dependencies\yougitit_dependencies.txt" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-UnityScript-firstpass.unityproj">
