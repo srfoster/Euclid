@@ -32,4 +32,10 @@ public class Eclipse : MonoBehaviour {
 		string messages=Shell.shell("bash","\""+EuclidConfig.eclipse_path+"/eclim\" --nailgun-port 9091 -command projects");
 		return messages;
 	}
+	
+	public string CreateNewProject(string project_path)
+	{
+		string messages=Shell.shell("bash","\""+EuclidConfig.eclipse_path+"/eclim\" --nailgun-port 9091 -command project_create -f \""+project_path+"\" -n java");
+		return messages;
+	}
 }
