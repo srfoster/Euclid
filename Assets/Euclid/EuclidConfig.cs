@@ -1,3 +1,4 @@
+/* See the copyright information at https://github.com/srfoster/Euclid/blob/master/COPYRIGHT */
 using UnityEngine;
 using System.Collections;
 
