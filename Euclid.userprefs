@@ -1,10 +1,11 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Euclid/StartEclim.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Dependencies/euclid_dependencies.txt">
     <Files>
+      <File FileName="Assets/Dependencies/euclid_dependencies.txt" Line="2" Column="35" />
       <File FileName="Assets/Euclid/Examples/JSTest.js" Line="2" Column="25" />
       <File FileName="Assets/Euclid/StartEclim.cs" Line="52" Column="3" />
-      <File FileName="Assets/Unloader/Unloader.cs" Line="11" Column="1" />
+      <File FileName="Assets/Unloader/Unloader.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
