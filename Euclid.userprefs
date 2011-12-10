@@ -1,7 +1,8 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Dependencies/euclid_dependencies.txt">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Euclid/Eclipse.cs">
     <Files>
+      <File FileName="Assets/Euclid/Eclipse.cs" Line="24" Column="68" />
       <File FileName="Assets/Dependencies/euclid_dependencies.txt" Line="2" Column="35" />
       <File FileName="Assets/Euclid/Examples/JSTest.js" Line="2" Column="25" />
       <File FileName="Assets/Euclid/StartEclim.cs" Line="52" Column="3" />

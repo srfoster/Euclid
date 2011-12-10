@@ -17,13 +17,13 @@ public class Eclipse : MonoBehaviour {
 	
 	public string JavaSrcUpdateString(string file_name, string project)
 	{
-		string messages=Shell.shell("bash","\""+EuclidConfig.eclipse_path+"/eclim\" --nailgun-port 9091 -command java_src_update -p \""+project+"\" -f \"src/"+file_name+"\" -v");
+		string messages=Shell.shell("bash","\""+EuclidConfig.eclipse_path+"/eclim\" --nailgun-port 9091 -command java_src_update -p \""+project+"\" -f \""+file_name+"\" -v");
 		return messages;	
 	}
 	
 	public string JavaCompleteString(string file_name, string project, int cursor)
 	{
-		string messages=Shell.shell("bash","\""+EuclidConfig.eclipse_path+"/eclim\" --nailgun-port 9091 -command java_complete -p \""+project+"\" -f \"src/"+file_name+"\" -o "+cursor+" -e utf-8 -l compact");
+		string messages=Shell.shell("bash","\""+EuclidConfig.eclipse_path+"/eclim\" --nailgun-port 9091 -command java_complete -p \""+project+"\" -f \""+file_name+"\" -o "+cursor+" -e utf-8 -l compact");
 		return messages;
 	}
 	
