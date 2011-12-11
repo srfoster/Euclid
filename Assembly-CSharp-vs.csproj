@@ -44,12 +44,12 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Euclid\Eclipse.cs" />
-     <Compile Include="Assets\Euclid\EuclidConfig.cs" />
-     <Compile Include="Assets\Euclid\Examples\CSTest.cs" />
-     <Compile Include="Assets\Euclid\StartEclim.cs" />
-     <Compile Include="Assets\Unloader\Example.cs" />
-     <Compile Include="Assets\Unloader\Unloader.cs" />
+     <Compile Include="Assets\Vendor\Euclid\Eclipse.cs" />
+     <Compile Include="Assets\Vendor\Euclid\EuclidConfig.cs" />
+     <Compile Include="Assets\Vendor\Euclid\Examples\CSTest.cs" />
+     <Compile Include="Assets\Vendor\Euclid\StartEclim.cs" />
+     <Compile Include="Assets\Vendor\Unloader\Example.cs" />
+     <Compile Include="Assets\Vendor\Unloader\Unloader.cs" />
      <None Include="Assets\Dependencies\euclid_dependencies.txt" />
      <None Include="Assets\Dependencies\yougitit_dependencies.txt" />
  <Reference Include="Library\ScriptAssemblies\Assembly-UnityScript-firstpass">
