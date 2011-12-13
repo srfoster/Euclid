@@ -1,3 +1,4 @@
+/* See the copyright information at https://github.com/srfoster/Unloader/blob/master/COPYRIGHT */
 using UnityEngine;
 using System.Collections;
 

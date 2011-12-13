@@ -48,8 +48,8 @@
      <Compile Include="Assets\Vendor\Euclid\EuclidConfig.cs" />
      <Compile Include="Assets\Vendor\Euclid\Examples\CSTest.cs" />
      <Compile Include="Assets\Vendor\Euclid\StartEclim.cs" />
-     <Compile Include="Assets\Vendor\Unloader\Example.cs" />
      <Compile Include="Assets\Vendor\Unloader\Unloader.cs" />
+     <Compile Include="Assets\Vendor\Unloader\UnloaderExample.cs" />
      <None Include="Assets\Dependencies\euclid_dependencies.txt" />
      <None Include="Assets\Dependencies\yougitit_dependencies.txt" />
   </ItemGroup>
